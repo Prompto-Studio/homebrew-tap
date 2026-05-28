@@ -1,7 +1,7 @@
 class Keyrotate < Formula
   desc "One-command API-key rotator — 1Password, GitHub, Supabase, Netlify, Fly.io, .env"
   homepage "https://github.com/Prompto-Studio/keyrotate"
-  version "00.00.04"
+  version "0.4.0"     # 00.00.04 (cosmetic)
   license "MIT"
 
   on_macos do
