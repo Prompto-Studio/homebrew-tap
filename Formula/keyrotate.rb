@@ -1,23 +1,23 @@
 class Keyrotate < Formula
   desc "One-command API-key rotator — 1Password, GitHub, Supabase, Netlify, Fly.io, .env"
   homepage "https://github.com/Prompto-Studio/keyrotate"
-  version "0.16.0"     # 00.00.16 (cosmetic)
+  version "0.17.0"     # 00.00.17 (cosmetic)
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Prompto-Studio/keyrotate/releases/download/v00.00.16/keyrotate-darwin-arm64.tar.gz"
-      sha256 "a53858182112cc16a5938afb9925fb198125a7b5ab4a5fb4071dfdf035fa12ea"
+      url "https://github.com/Prompto-Studio/keyrotate/releases/download/v00.00.17/keyrotate-darwin-arm64.tar.gz"
+      sha256 "379141fe34872568305d80fdeaad9dc44e31d61cbef5048b12b299052e33f1db"
     end
     on_intel do
-      url "https://github.com/Prompto-Studio/keyrotate/releases/download/v00.00.16/keyrotate-darwin-x64.tar.gz"
-      sha256 "0dc09b29d8c78c0d65f1cc5b3560d94b94f6e7423828f7c2a30b0fcc232afa19"
+      url "https://github.com/Prompto-Studio/keyrotate/releases/download/v00.00.17/keyrotate-darwin-x64.tar.gz"
+      sha256 "5c8a4393c562f7167ae8b11126b299a99c50d2af322a36b76f54042ad592a923"
     end
   end
 
   on_linux do
-    url "https://github.com/Prompto-Studio/keyrotate/releases/download/v00.00.16/keyrotate-linux-x64.tar.gz"
-    sha256 "22316a74072ea5bf6b999454ae17ef3661c1ba178200094281543134cc5a5114"
+    url "https://github.com/Prompto-Studio/keyrotate/releases/download/v00.00.17/keyrotate-linux-x64.tar.gz"
+    sha256 "72893ba232011c349ee3c07cc31c7afdc2135a8d72ffc82f9ea377110480a26a"
   end
 
   def install
